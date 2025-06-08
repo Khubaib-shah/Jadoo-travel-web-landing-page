@@ -1,6 +1,6 @@
-import Logo from "../assets/Jadoo.png";
-import navLinks from "../utils/navLinks";
-import downArrow from "../assets/left-arrow.png";
+import Logo from "../../assets/jadoo.png";
+import navLinks from "../../utils/navLinks";
+import downArrow from "../../assets/left-arrow.png";
 const Header = () => {
   return (
     <header className="flex justify-between items-center px-4 py-6">
