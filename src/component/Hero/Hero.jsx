@@ -35,7 +35,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full lg:min-h-screen overflow-hidden">
+    <div className="relative w-full overflow-hidden pb-6">
       <Header />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg h-full relative z-20">
@@ -93,7 +93,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="Hero Image"
-            className={`w-auto h-full object-contain scale-[1.4] lg:scale-[1.1] -ms-14 mt-6 transition-opacity duration-400 
+            className={`w-auto h-full object-contain scale-[1.4] md:scale-[1.5] lg:scale-[1.3] xl:scale-105 -ms-14 mt-6  transition-opacity duration-400 
               ${showHeading ? "opacity-100" : "opacity-0"}`}
           />
 

@@ -2,6 +2,7 @@ import "./App.css";
 import Category from "./component/Category/Category";
 import Hero from "./component/Hero/Hero";
 import DecoreImg from "./assets/Decore.png";
+import Destinations from "./component/Destinations/Destinations";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       />
       <Hero />
       <Category />
+      <Destinations />
     </div>
   );
 }
