@@ -1,5 +1,5 @@
 import Logo from "../../assets/jadoo.png";
-import navLinks from "../../utils/navLinks";
+import navLinks from "../../data/navLinks";
 import downArrow from "../../assets/left-arrow.png";
 import { useState } from "react";
 import MobileNav from "./MobileNav";

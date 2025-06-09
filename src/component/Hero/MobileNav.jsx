@@ -1,4 +1,4 @@
-import navLinks from "../../utils/navLinks";
+import navLinks from "../../data/navLinks";
 import downArrow from "../../assets/left-arrow.png";
 
 const MobileNav = ({ setToggleMenu, toggleMenu }) => {

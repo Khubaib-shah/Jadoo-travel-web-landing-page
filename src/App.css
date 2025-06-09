@@ -7,7 +7,7 @@
 }
 
 .volkhov {
-  font-family: "Volkhov", serif;
+  font-family: "Volkhov", serif !important;
 }
 
 @keyframes fly {

@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import Header from "./Header";
-import DecoreImg from "../../assets/Decore.png";
 import decoreImage1 from "../../assets/TextDesign.png";
 import Playbutton from "../../assets/Polygon1.png";
 import HeroImage from "../../assets/Traveller.png";
@@ -36,25 +35,19 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full md:min-h-screen overflow-hidden">
-      <img
-        src={DecoreImg}
-        alt="Background Image"
-        className="fixed top-0 right-0 z-0 w-[500px] max-w-none pointer-events-none"
-      />
-
+    <div className="relative w-full lg:min-h-screen overflow-hidden">
       <Header />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg h-full relative z-20">
         {/* Content */}
         <div className="flex flex-col justify-center items-start ms-6 md:mt-14 lg:mt-24 mt-10">
-          <h4 className="font-bold text-[18.39px] text-[#DF6951] tracking-wider min-h-[28px]">
+          <h4 className="font-bold text-[18.39px] md:text-[16px] text-[#DF6951] tracking-wider min-h-[28px]">
             {animatedText}
             <span className="animate-pulse">|</span>
           </h4>
 
           <h1
-            className={`relative text-[#181D4B] volkhov text-7xl md:text-6xl lg:text-[80px] lg:tracking-tighter font-extrabold mt-8 leading-15 md:leading-15 lg:leading-20 tracking-tighter md:tracking-tight transition-opacity duration-1000 ${
+            className={`relative text-[#181D4B] volkhov text-[55px] tracking-tight md:text-[55px] lg:text-[80px] lg:tracking-tighter font-extrabold mt-8 leading-15 md:leading-15 lg:leading-20 md:tracking-tight transition-opacity duration-1000 ${
               showHeading ? "opacity-100" : "opacity-0"
             }`}
           >
@@ -62,7 +55,7 @@ const Hero = () => {
             <img
               src={decoreImage1}
               alt="Text Design"
-              className="absolute w-[280px] md:w-[250px] lg:w-[300px] top-[52px] md:top-[48px] -right-[75px] lg:top-16 md:-right-16 lg:-right-18 -z-10"
+              className="absolute w-[280px] md:w-[250px] lg:w-[300px] top-[46px] md:top-[46px] -right-[75px] lg:top-16 md:-right-16 lg:-right-18 -z-10"
             />
           </h1>
 
@@ -100,7 +93,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="Hero Image"
-            className={`w-auto h-full object-contain scale-[1.3] -ms-14 mt-6 transition-opacity duration-400 
+            className={`w-auto h-full object-contain scale-[1.4] lg:scale-[1.1] -ms-14 mt-6 transition-opacity duration-400 
               ${showHeading ? "opacity-100" : "opacity-0"}`}
           />
 
@@ -108,7 +101,7 @@ const Hero = () => {
           <img
             src={Plane}
             alt="Plane"
-            className={`absolute top-0 left-0 lg:-top-5 w-[150px] lg:w-[200px] h-[150px] lg:h-[200px] transition-opacity duration-400 
+            className={`absolute top-0 left-0 md:top-10  lg:-top-5 w-[150px] lg:w-[200px] h-[150px] lg:h-[200px] transition-opacity duration-400 
               ${showHeading ? "opacity-100" : "opacity-0"}`}
           />
         </div>

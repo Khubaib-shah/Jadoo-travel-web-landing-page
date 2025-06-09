@@ -1,17 +1,18 @@
 import "./App.css";
+import Category from "./component/Category/Category";
 import Hero from "./component/Hero/Hero";
+import DecoreImg from "./assets/Decore.png";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto  bg-[#FFFFFF] ">
+    <div className="max-w-7xl mx-auto px-4 bg-[#FFFFFF] ">
+      <img
+        src={DecoreImg}
+        alt="Background Image"
+        className="absolute top-0 right-0  z-1 w-[350px] md:w-[500px] max-w-none pointer-events-none"
+      />
       <Hero />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-      necessitatibus officiis vitae impedit expedita aperiam. Nostrum, quis
-      tempora, qui maxime similique hic nisi possimus consequatur explicabo quos
-      et ratione? Repellendus ea eos vel totam quaerat, assumenda veli Quos at
-      fugit quasi repellat vero nostrum laboriosam, quia eveniet omnis illum
-      temporibus magni neque maiores, quibusdam quo asperiores error aspernatur
-      id?
+      <Category />
     </div>
   );
 }
