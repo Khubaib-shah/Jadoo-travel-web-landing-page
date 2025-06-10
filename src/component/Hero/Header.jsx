@@ -1,4 +1,4 @@
-import Logo from "../../assets/jadoo.png";
+import Logo from "../../assets/Jadoo.png";
 import navLinks from "../../data/navLinks";
 import downArrow from "../../assets/left-arrow.png";
 import { useState } from "react";
