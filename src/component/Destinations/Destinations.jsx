@@ -17,6 +17,7 @@ const Destinations = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 place-items-center">
         {destination.map((destination) => (
           <DestinationCard
+            key={destination.id}
             image={destination.image}
             title={destination.title}
             price={destination.price}

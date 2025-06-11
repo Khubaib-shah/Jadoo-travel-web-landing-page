@@ -4,6 +4,7 @@ import Hero from "./component/Hero/Hero";
 import DecoreImg from "./assets/Decore.png";
 import Destinations from "./component/Destinations/Destinations";
 import BookATrip from "./component/BookATrip/BookATrip";
+import Testimonials from "./component/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Category />
       <Destinations />
       <BookATrip />
+      <Testimonials />
     </div>
   );
 }
