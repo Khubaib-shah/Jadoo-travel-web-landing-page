@@ -8,7 +8,7 @@ const Destinations = () => {
   return (
     <section
       ref={ref}
-      className={`transition-opacity duration-1000 ease-in-out ${
+      className={`transition-opacity duration-1000 ease-in-out mt-24 ${
         isVisible ? "opacity-100" : "opacity-0"
       } `}
     >

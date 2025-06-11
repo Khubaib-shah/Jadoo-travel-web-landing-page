@@ -5,6 +5,7 @@ import DecoreImg from "./assets/Decore.png";
 import Destinations from "./component/Destinations/Destinations";
 import BookATrip from "./component/BookATrip/BookATrip";
 import Testimonials from "./component/Testimonials/Testimonials";
+import Logos from "./component/Logos/Logos";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Destinations />
       <BookATrip />
       <Testimonials />
+      <Logos />
     </div>
   );
 }

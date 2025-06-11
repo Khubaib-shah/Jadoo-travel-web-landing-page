@@ -8,7 +8,8 @@ const categoryData = [
     id: "1",
     image: Antina,
     title: "Calculated Weather",
-    description: "Built Wicket longer admire do barton vanity itself do in it.",
+    description:
+      "Built Wicket longer admire do barton vanity itself do in it. hard for the.",
   },
   {
     id: "2",

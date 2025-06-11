@@ -6,7 +6,7 @@ const ServicesCard = ({ imgSrc, imgAlt, title, description }) => {
   return (
     <div
       ref={ref}
-      className={`max-w-[267px] gap-4 flex justify-center items-center flex-col rounded-4xl p-4 bg-white hover:shadow-xl transition-opacity duration-1000 ease-in-out cursor-pointer ${
+      className={`max-w-[267px] gap-4 flex justify-center items-center flex-col rounded-4xl p-4 bg-white hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
