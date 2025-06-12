@@ -2,7 +2,7 @@ import NavigateIcon from "../../assets/Destinations/Navigation.png";
 
 const DestinationCard = ({ image, title, price, plan }) => {
   return (
-    <div className="relative w-80 rounded-4xl shadow-xl h-[457px] overflow-hidden">
+    <div className="relative max-w-80 rounded-4xl shadow-xl max-h-[457px] overflow-hidden">
       <img
         src={image}
         alt={title}

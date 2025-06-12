@@ -6,6 +6,7 @@ import Destinations from "./component/Destinations/Destinations";
 import BookATrip from "./component/BookATrip/BookATrip";
 import Testimonials from "./component/Testimonials/Testimonials";
 import Logos from "./component/Logos/Logos";
+import Subscription from "./component/Subscription/Subscription";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <img
         src={DecoreImg}
         alt="Background Image"
-        className="absolute top-0 right-0  z-1 w-[350px] md:w-[500px] max-w-none pointer-events-none"
+        className="absolute top-0 right-0  z-1 w-[350px] md:w-[500px] max-w-none pointer-events-none overflow-hidden"
       />
       <Hero />
       <Category />
@@ -21,6 +22,7 @@ function App() {
       <BookATrip />
       <Testimonials />
       <Logos />
+      <Subscription />
     </div>
   );
 }

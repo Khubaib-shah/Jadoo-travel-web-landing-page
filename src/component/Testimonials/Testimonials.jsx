@@ -102,7 +102,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="hidden sm:flex absolute -right-8 md:-right-20 top-1/2 transform -translate-y-1/2 flex-col gap-4 md:gap-6">
+        <div className="hidden sm:flex absolute right-8 md:-right-10 lg:-right-10 top-1/2 transform -translate-y-1/2 flex-col gap-4 md:gap-6">
           <button
             onClick={() =>
               setCardNumber((prev) =>

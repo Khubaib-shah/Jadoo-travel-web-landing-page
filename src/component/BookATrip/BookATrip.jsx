@@ -75,7 +75,7 @@ const BookATrip = () => {
             <img src={heart} alt="" className="w-4 h-4 sm:w-5 sm:h-5" />
           </div>
 
-          <div className="w-[180px] sm:w-[200px] md:w-[220px] lg:w-[240px] h-[90px] sm:h-[110px] md:h-[120px] flex absolute bg-white bottom-8 sm:bottom-10 -right-8 sm:-right-10 md:-right-12 lg:-right-16 shadow-xl rounded-xl p-3 sm:p-4">
+          <div className="w-[180px] sm:w-[200px] md:w-[220px] lg:w-[240px] h-[90px] sm:h-[110px] md:h-[120px] flex absolute bg-white bottom-8 sm:bottom-10 -right-8 sm:-right-8 md:-right-6 lg:-right-13 shadow-xl rounded-xl p-3 sm:p-4">
             <img
               src={rome}
               alt="rome"
@@ -93,7 +93,7 @@ const BookATrip = () => {
               </p>
 
               <div className="w-full rounded-full h-1.5 sm:h-2 bg-[#f4efef] mt-1 sm:mt-2 overflow-hidden">
-                <div className="bg-[#8A79DF] h-full w-[40%]"></div>
+                <div className="bg-[#8A79DF] h-full w-[40%] rounded-2xl"></div>
               </div>
             </div>
           </div>
