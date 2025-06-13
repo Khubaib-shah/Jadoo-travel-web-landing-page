@@ -7,6 +7,7 @@ import BookATrip from "./component/BookATrip/BookATrip";
 import Testimonials from "./component/Testimonials/Testimonials";
 import Logos from "./component/Logos/Logos";
 import Subscription from "./component/Subscription/Subscription";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Logos />
       <Subscription />
+      <Footer />
     </div>
   );
 }

@@ -35,7 +35,7 @@ const Subscription = () => {
       <img
         src={decorationLines2}
         alt=""
-        className="absolute left-7 -bottom-7 h-[200px] md:h-[290px] opacity-10 z-0"
+        className="absolute left-7 bottom-0 h-[200px] md:h-[290px] opacity-10 z-0"
       />
 
       <div className="relative z-10 w-full px-4">
